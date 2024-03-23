@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descargador de videos de YouTube</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Descargador de videos de YouTube</h1>
+        <div class="form-group">
+            <label for="url" class="label">URL del video:</label>
+            <input type="text" id="url" class="input" placeholder="Ingrese la URL del video">
+
+
+            <label for="formato" class="label">Formato:</label>
+            <select id="formato" class="select">
+                <option value="mp4">mp4</option>
+                <option value="mp3">mp3</option>
+            </select>
+        </div>
+
+        <button id="descargar" class="button">Descargar</button>
+        <p id="mensaje" class="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
