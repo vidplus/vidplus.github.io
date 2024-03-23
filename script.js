@@ -20,9 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        mensaje.textContent = "Descargando...";
-        setTimeout(function() {
-            mensaje.textContent = "Descarga completada!";
-        }, 2000); // Simular una descarga de 2 segundos
+        // Redirigir al usuario a la URL del video
+        window.location.href = url;
     });
 });
